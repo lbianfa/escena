@@ -1,0 +1,52 @@
+.cuadro {
+  width: 600px;
+  height: 600px;
+}
+
+.techo {
+  width: 0;
+  height: 0;
+  border-right: 250px solid transparent;
+  border-top: 250px solid transparent;
+  border-left: 250px solid transparent;
+  border-bottom: 250px solid #cd5844;
+  position: relative;
+  margin: 0 auto;
+  top: -250px;
+}
+
+.pared {
+  width: 430px;
+  height: 400px;
+  background-color: burlywood;
+  position: relative;
+  margin: 0 auto;
+  top: -250px;
+}
+
+.ventana {
+  width: 100px;
+  height: 100px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  position: relative;
+}
+
+.ventana-l {
+  top: 80px;
+  left: 40px;
+}
+
+.ventana-r {
+  top: -20px;
+  left: 290px;
+}
+
+.puerta {
+  background-color: chocolate;
+  width: 130px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  /* top: -5px; */
+}
